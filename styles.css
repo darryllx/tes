@@ -158,6 +158,9 @@ body {
   .form-container {
     margin: 0 32px;
     height: 100vh;
+    justify-content: start;
+    padding-top: 120px;
+    gap: 40px;
   }
 
   .form-title h3{
@@ -203,10 +206,13 @@ body {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 395px) {
   .form-container {
     margin: 0 16px;
     height: 100vh;
+    justify-content: start;
+    padding-top: 120px;
+    gap: 40px;
   } 
   
   .form-title h3{

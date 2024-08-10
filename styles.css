@@ -207,7 +207,7 @@ body {
   .form-container {
     margin: 0 16px;
     height: 100vh;
-  }
+  } 
   
   .form-title h3{
     font-size: 14px;
@@ -218,6 +218,19 @@ body {
   }
 
   .form-input {
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  #namaKucing {
+    width: 75%;
+    height: 64px;
+  }
+  
+  .kirimBtn {
+    width: 25%;
+    height: 64px;
+    font-size: 16px;
   }
 }
